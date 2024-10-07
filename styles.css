@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('https://www.transparenttextures.com/patterns/paper.png'), linear-gradient(135deg, #f0f4f8, #cfd9e4);
+    background: url('./food.png'), linear-gradient(125deg, #86b1dd, #8533bb);
     color: #333;
     display: flex;
     justify-content: center;
@@ -116,3 +116,20 @@ button:hover {
     margin-right: auto;
     text-align: right;
 }
+
+
+.confetti-container {
+  
+  }
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Чтобы не мешать кликам */
+    z-index: 999; /* Конфетти всегда сверху */
+    overflow: auto;
+  }
+  
