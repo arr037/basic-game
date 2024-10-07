@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     max-width: 90%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 h1 {
