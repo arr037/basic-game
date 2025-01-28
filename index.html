@@ -9,9 +9,25 @@
   <body>
     <canvas id="canvas"></canvas>
     <div class="container">
-      
-        <div class="confetti"></div> 
+      <h1>Игра «Подбери парную картинку»</h1>
+      <p>Найди правильную пару для каждой картинки.</p>
+      <div class="board">
+        <div class="row upper"></div>
+        <div class="row lower"></div>
       </div>
+      <button id="check">Проверить</button>
+      <button id="hint" style="display: none">Подсказка</button>
+      <p id="result"></p>
+      <p id="hint-result" style="color: #007bff"></p>
+      <div
+        id="congratulations"
+        style="display: none; text-align: center; font-size: 24px; color: green"
+      >
+        Поздравляем! Вы нашли все пары!
+        <!-- <div class="confetti"></div> -->
+      </div>
+
+      <div class="info">Автор: Габдуллина Алина <br />Группа: 1301-82</div>
     </div>
     <script src="./confeti.js"></script>
     <script src="script.js"></script>
